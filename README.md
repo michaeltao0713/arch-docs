@@ -1,11 +1,13 @@
 # Arch Linux Documentation
+
 This is a collection of documents regarding my experience with installing and setting up Arch Linux on my personal laptop. This is for when I inevitably switch to different hardware and will need to go through this process once again. It is my hope that this provides much aid to my future self.
 
-### Table of Contents
-- [Todo List](todo.md)
+## Table of Contents
+
+[Todo List](todo.md)
 - Introduction
-    - [How to Read](d00_Introduction/c00_main.md)
-    - [Pre-Installation](d00_Introduction/c01_pre-install.md)
+    - [How to Read](01_Getting-Started/01_Overview.md)
+    - [Before Installing](01_Getting-Started/02_Pre-Install.md)
 - Installation
     - [Installing Arch](d01_Installation/c00_arch-install.md)
 - Post-Install Configuration

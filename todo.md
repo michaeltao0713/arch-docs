@@ -1,6 +1,13 @@
-Keep writing and documenting until I catch up to the state in this file
+Immediate next steps:
 
 
+Revamp the documentation completely
+Update all current dotfiles (which means copying every file in .config over... and checking what is needed)
+Reorder the documentation in an order that makes sense
+Set up a waybar
+Continue with Hyprland set up
+Look into a pacman hook for nvim
+Configure yazi
 
 Things to configure:
 
