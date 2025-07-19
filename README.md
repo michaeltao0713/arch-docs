@@ -16,19 +16,17 @@ This is a collection of documents regarding my experience with installing and se
     - [Package Management](03_Post-Installation/04_Package-Management.md)
     - [System Administration](03_Post-Installation/05_System-Administration.md)
 - Applications
-    - [Steam](d03_Applications/c00_steam.md)
+    - [Essential Applications](04_Applications/01_Essential-Applications.md)
 
 
 
 Do next:
 
-Write about setting up browser. (need xdg-protal and hyprland backend)
-Write about setting up sound.
+Write about configuring hyprland (using arch wiki and upstream wiki)
 Write about setting up discord, and steam.
 Write about configuring neovim. (A pacman hook for lazy.nvim updates?)
-Write about configuring hyprland (using arch wiki and upstream wiki)
+Read and write about section 3, section 5-12 in General Recommendations Wiki Page for more things to do.
 
-Figure out how to get the browser to open yazi when looking for files.
 Figure out media play macro
 Read the Hyprland Arch Wiki page for tips and tricks
 
@@ -45,6 +43,7 @@ ly or whatever display manager i want to use. (can I just use hyprlock?)
 look into a better pavucontrol or whatever for pipewire audio.
 bluetooth capabilities
 onscreen volume adjustment notification.
+volume control widget for waybar (show all audio devices, like wimdows, might need something like ewww)
 Virtual Machine/Virtualization/Docker?
 New Cursor for funsies
 A better discord (no Electron perhaps??)

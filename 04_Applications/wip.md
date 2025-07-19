@@ -13,11 +13,7 @@ For rendering emojis in discord channel names, install ttf-twemoji from AUR usin
 
 
 
-### Setting default text editor in Thunar
 
-In order to set up using neovim or vim or nano (maybe) after double clicking a file in your file manager, first try using the GUI in the file manager to set the default editor.
-
-If that doesn't work, do the following:
 Create/edit the `~.local/share/applications/nvim.desktop` file.
 Add the following to the file:
 ```
