@@ -17,6 +17,7 @@ This is a collection of documents regarding my experience with installing and se
     - [System Administration](03_Post-Installation/05_System-Administration.md)
 - Applications
     - [Essential Applications](04_Applications/01_Essential-Applications.md)
+    - [Hyprland Continued](04_Applications/02_Hyprland-Continued.md)
 
 
 
@@ -39,7 +40,7 @@ Waybar
     applets (NM, discord, pavucontrol)
 Clipboard manager (there is a Wiki page for this)
 Screenshot tool
-ly or whatever display manager i want to use. (can I just use hyprlock?)
+hyprlock lockscreen (wallpaper it!)
 look into a better pavucontrol or whatever for pipewire audio.
 bluetooth capabilities
 onscreen volume adjustment notification.
