@@ -22,7 +22,6 @@ This is a collection of documents regarding my experience with installing and se
 
 Do next:
 
-Write about dotfiles.
 Write about setting up browser. (need xdg-protal and hyprland backend)
 Write about setting up sound.
 Write about setting up discord, and steam.

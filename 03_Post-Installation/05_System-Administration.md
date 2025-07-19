@@ -62,9 +62,30 @@ Not much to do here, but do give a read through the `systemd` page and the `jour
 
 I suggest giving this page a bookmark and coming back to it to refresh and go through the motions to maintaining your system. Ideally you set up a script for some of these steps as well.
 
-Creating a dotfiles repository is for saving a backup of your configuration files so you won't have to rice everything again. We'll talk about setting one up soon (in case I forget how to).
+### Setting up a dotfiles Repository
 
-We already set up the automated package list updates in the Package Management chapter.
+[Dotfiles](https://wiki.archlinux.org/title/Dotfiles)\
+[My dotfiles](https://github.com/michaeltao0713/hyprland-dotfiles/tree/main)
+
+We want to keep track of our app configurations so we won't have to make the same changes every time we set up a new system (or we break something). Most applications create and use hidden files in your home directory, or in the `.config` directory to store these configurations. We want to create a repository to track these files on Git Hub.
+
+I already have a dotfiles repository, but let's go over making a repo (since I'm forgetful).
+
+Create a dotfiles repo on GitHub and git clone to `~` directory as the `.dotfiles/` directory:
+
+`git clone git_url ~/.dotfiles`
+
+Set up SSH key authentication with GitHub if you haven't already (install `openssh` and refer to GitHub documentation)
+
+We want the actual files to be located in the `.dotfiles/`, so cut and paste the original config file on your system to the `.dotfiles/` and then create a symlink like this:
+
+`ln -s ~/.dotfiles/file_name ~/file_name`
+
+or like this:
+
+`ln -s ~/.dotfiles/.config/file_name ~/.config/file_name`
+
+And of course, keep the git repo updated whenever you change the configs.
 
 ### System backup
 
