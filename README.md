@@ -33,13 +33,16 @@ Read the Hyprland Arch Wiki page for tips and tricks
 
 Install (and Configure):
 Hyprland recommended applications on their Wiki.
-Notification daemon
 Waybar
+    Install a widget system
     Extensions for waybar would be:
-    workspaces
+    workspaces https://github.com/Alexays/Waybar/wiki/Module:-Hyprland
     applets (NM, discord, pavucontrol)
 Clipboard manager (there is a Wiki page for this)
+Archive manager like 7-zip
 Screenshot tool
+Image viewer
+Video viewer
 hyprlock lockscreen (wallpaper it!)
 look into a better pavucontrol or whatever for pipewire audio.
 bluetooth capabilities
@@ -51,6 +54,8 @@ A better discord (no Electron perhaps??)
 Bitwarden (CLI version wants nodejs-lts, yarn for nvim wants nodejs, figure out lazy.nvim without yarn?)
 
 Configure:
+qt apps with kvantum (change the config file and whatever)
+gtk apps with nwg-look
 Yazi
 rEFInd boot loader
 htop
@@ -59,10 +64,12 @@ Kitty and bash
 neovim and plugins (also learn how to vim in the first place).
 rofi-wayland
 network manager (especially the applet for waybar)
+swaync notification daemon
 
 Misc:
 Set up secure boot (write about this in the post install doc)
 Check boot times and trouble shoot using `systemd-analyze blame`
+Set up wallpaper switch script? Use Hyprpaper? idk, does it use rofi? reference Ari's dotfiles
 
 
 Learn:
