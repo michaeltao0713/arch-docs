@@ -78,4 +78,15 @@ We'll also install a widget system later when configuring.
 
 ## Idle and Lock
 
+[Hypridle](https://wiki.hypr.land/Hypr-Ecosystem/hypridle/)\
+[Hyprlock](https://wiki.hypr.land/Hypr-Ecosystem/hyprlock/)
 
+Install `hypridle` and `hyprlock` and create config files. Sample config files are on the wiki, and my dotfiles.
+
+## Clipboard Manager
+
+[Clipboard Manager](https://wiki.hypr.land/Useful-Utilities/Clipboard-Managers/)
+
+Use `cliphist`. Install with `pacman`.
+
+Follow the set up on the linked page to set up the config.

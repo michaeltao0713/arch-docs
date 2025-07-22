@@ -36,3 +36,7 @@ Application Manager: You'll want one so you can launch apps without a terminal. 
 You'll have to set them as your default apps in the hyprland.conf file. Dotfiles should have these already set.
 
 We'll install more apps and start configuring things later.
+
+## Brightness/Volume Change 
+
+Install `brightnessctl` to be able to use your keyboard brightness change macros. Install `playerctl` to be able to use volume control macros.
