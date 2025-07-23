@@ -12,7 +12,7 @@ We'll want to run `systemctl enable NetworkManager` here so that your computer w
 
 This would fall under section 1.1 of the [General Recommendations](https://wiki.archlinux.org/title/General_recommendations) Wiki page.
 
-Just type `EDITOR=nvim visudo` and replace nvim with your console text editor of choice. Search for wheel, and uncomment the line that allows users in group wheel to use sudo.
+Just type `EDITOR=vim visudo` and replace vim with your console text editor of choice. Search for wheel, and uncomment the line that allows users in group wheel to use sudo.
 
 You can now sudo as your regular user for admin permissions. Test it out by installing a package as that user with `sudo pacman -S *package*`.
 
@@ -36,6 +36,8 @@ Install `lib32-nvidia-utils` and `nvidia-settings` as well.
 Set up DRM kernel mode setting. I like to set it with `modprobe` for late kernel loading, as well as `mkinitcpio` and configuring directly in the boot loader for early loading.
 
 Follow the steps in the WiKi for the modprobe and the mkinitcpio steps. For bootloader, it's dependent on which one you use. The steps for rEFInd is up above. If not using dkms, set up the pacman hook to remake the initramfs everytime nvidia updates.
+
+Reboot after this as well.
 
 Be sure to check the rest of the Wiki pages for AMD and NVIDIA past the install, everything I'm writing here only relates to an AMD iGPU + NVIDIA dGPU setup. You can also check out [NVIDIA/Tips and Tricks](https://wiki.archlinux.org/title/NVIDIA/Tips_and_tricks).
 

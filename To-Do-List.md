@@ -4,59 +4,37 @@
 
 Install and configure a to-do list app. Options:
 
-Planify:
-Features
-
-
-
-## Re-Installing Linux
-
-~~Upload a list of essential packages from previous cycle.~~
-
-~~Keep track of reference dotfile repos~~
-
-~~Verify documentation repo is up to date.~~
-
-~~Verify dotfiles repo is up to date.~~
-
-Research CachyOS and decide if it's better than Arch for what I want.
-
-Etch iso onto a USB drive (on windows probably)
-
-Install Linux
-
-Go through my own documentation and set up basic functionality.
-
-Go through the Wiki and continue setting things up.
-
-
+Planify
 
 ## Install and Configure
 
 REMEMBER, UNLESS IT'S MEGA IMPORTANT, CONFIGURE WHAT YOU INSTALL. OR ELSE YOU'LL HAVE ONE TRILLION TERRIBLE DEFAULT APPS AND HAVE TO CONFIGURE EVERYTHING AT ONCE. Don't forget to take your time and enjoy the ride.
 
-##### File Manager
+### Terminal
 
-GUI options only (unfortunate)
-Thunar (GTK)
-Dolphin (QT I think)
-yazi (cool, but was a pain)
+Kitty: Configure
+Oh my posh?
 
-##### VSCode
+### Browser
 
-VSCode
-VSCodium
+~~Vivaldi~~
 
-- set up copilot
-- actually configure the thing
+### File Manager
 
-##### Notification Daemon
+Thunar (GTK): Configure with theme
+
+### VSCode
+
+~~VSCode~~
+
+### Notification Daemon
 
 dunst (basically make your own)
 mako (basically make your own)
 swaync (beefier and GTK (bad) but has built in notification control panel/history)
+quickshell? pain lmaoo
 
-##### Status Bar
+### Status Bar
 
 Waybar (easy, temp solution?)
 - Install a widget system
@@ -67,84 +45,80 @@ Quickshell (create your own widgets, pain, time consuming, could look so good)
 Ewww
 AGS
 
-##### Discord
+### Discord
 
 Discord (telemetry, old Electron)
 Vesktop (auto install vencord, cool themes, popular)
 
-##### QT Apps Themeing
+### QT Apps Themeing
 
 qt6ct, qt5ct, kvantum
 - Choose a system theme (Catppuccin Mocha Mauve)
 
-##### GTK Apps Themeing
+### GTK Apps Themeing
 
 nwg-look
 - choose a system theme
 - need environment variables from the hyrpland wiki
 
-##### Archive Manager
+### Archive Manager
 
 Just use tarball? (painful)
 7zip
 ...
 
-##### Screenshot Tool
+### Screenshot Tool
 
 Hyprshot (if using hyprland)
 Flameshot
 ...
 
-##### Image Viewer
+### Image Viewer
 
 ...
 
-##### Video Viewer
+### Video Viewer
 
 VLC
 ...
 
-##### Bluetooth Manager
+### Bluetooth Manager
 
 ...
 
-##### Network Manager (better looking than NM please, also an applet/widget for status bar?)
+### Network Manager (better looking than NM please, also an applet/widget for status bar?)
 
 Network Manager
 systemd-networkd
 Make your own widget (specifically for interfacing with the network manager)
 ...
 
-##### Volume Control Panel
+### Volume Control Panel
 
 pavucontrol
 pwvucontrol
 Make your own widget with quickshell?
 ...
 
-##### On Screen Display (for volume change, brightness change, capslock, etc.)
+### On Screen Display (for volume change, brightness change, capslock, etc.)
 
 swayOSD
 Make your own widget?
 ...
 
-##### Virtualization
+### Virtualization
 
 Virtual Box (I used this on Windows)
 Docker (Containers instead of VM)
 ...
 
-##### Password Manager
+### Password Manager
 
 Bitwarden (ugly)
+
 Bitwarden CLI (needs nodejs-lts version, conflicts) (makes life hard)
 
-
-
-
-## Configuration
-
-##### Idle and Sleep
+### Idle and Sleep
 
 Hypridle:
 - timings
@@ -152,31 +126,29 @@ Hypridle:
 Hyprlock:
 - Aesthetic
 
-##### Bootloader
+### Bootloader
 
-rEFInd:
+rEFInd: Configure boot options, looks
+
 Secure Boot
-looks
 
-##### App Launcher
+### App Launcher
 
-rofi-wayland:
-make it look better
+rofi-wayland: Configure
 
-##### Btop
+emoji????
 
-idk, it kinda already looks good. see what options there are
+### System Monitors
 
-##### Fastfetch
+btop: Configure
+
+nvtop: Configure
+
+### Fastfetch
 
 Funky Icons (nerd font?)
+
 images
-
-##### Terminal
-
-oh my posh would be nice i think,
-make kitty look good, (translucent?)
-aliasing even?
 
 ## Other
 

@@ -56,7 +56,11 @@ The boot partition should be allocated around 1 to 2 GiB (gibibytes, using the '
 
 Use `t` to choose the typing for your partitions. `EFI system` for boot, `Linux swap` for swap space, and `Linux root (x86_64)` for root.
 
-## Section 1.10, 1.11
+## Section 1.10
+
+The only thing I did different here from the Wiki is use a `btrfs` file system instead of `ext4`. It's a bit more modern, and also declared stable.
+
+## Section 1.11
 
 Honestly, if you have a UEFI system, you can just follow the steps directly.
 
