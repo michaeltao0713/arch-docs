@@ -29,7 +29,9 @@ You'll want to install some apps for basic functionality on your system:
 
 Brower: I like Vivaldi (I can no longer like without tab stacks/groups). Install `vivaldi` with pacman.
 
-File Manager: For something with a GUI, use `thunar` or `dolphin`. I use a CLI file manager because I'm cool: `yazi`.
+File Manager: For something with a GUI, use `thunar` or `dolphin`. You can also use a terminal based file manager like `yazi`. I used one for a while because it was nifty, but you run into problems like your browser being unable to open them, and not having the basic functionality of downloading a file.
+
+I use `thunar`. Make sure to install the `xdg-desktop-portal-gtk` package to allow for browsers or an app like discord to open it.
 
 Application Manager: You'll want one so you can launch apps without a terminal. Install `rofi-wayland`.
 
