@@ -90,7 +90,7 @@ Text Editor: Install either `nano` or `vim` or `neovim`, depending on what you'r
 
 Other: `man-db`, `man-pages` for manual pages for your commands
 
-My Extras: `sudo`, so you can allow your user to run with admin permissions
+My Extras: `sudo`, so you can allow your user to run with admin permissions. Install `btrfs-progs` if you are using a btrfs filesystem for root.
 
 Run `pacstrap` and it'll take a couple minutes probably
 

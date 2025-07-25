@@ -46,3 +46,15 @@ From the AUR, install `xdg-desktop-portal-termfilechooser-hunkyburrito-git` usin
 There is a default `config` file in either `/usr/local/share/xdg-desktop-portal-termfilechooser/` or `/usr/share/xdg-desktop-portal-termfilechooser/`. In my case, it was the latter. Copy the `config` file to your `~/.config/xdg-desktop-portal-termfilechooser/` folder and make sure the correct wrapper script is run for your chosen file manager (in my case, `yazi`).
 
 Do a quick `systemctl restart xdg-desktop-portal` and you should be good. I still don't really recommend this, as your browser's "Show in File Manager" button won't work. I think it's because it's not opening `yazi` in either download mode, or upload mode, so it self-destructs.
+
+## File Editor
+
+I suggest using Visual Studio Code, but you can use Neovim if you're just built like that. [Setting up VSCode](App-Setups/01_Visual-Studio-Code.md). Set it as your default file editor in a GUI File Manager by right clicking on a file you want to edit and setting VSCode (or whatever you want) as the default.
+
+## Discord/Vesktop
+
+Check out [this](App-Setups/03_Discord.md).
+
+## Steam
+
+Check out [this](App-Setups/04a_Steam.md).

@@ -15,17 +15,9 @@ REMEMBER, UNLESS IT'S MEGA IMPORTANT, CONFIGURE WHAT YOU INSTALL. OR ELSE YOU'LL
 Kitty: Configure
 Oh my posh?
 
-### Browser
-
-~~Vivaldi~~
-
 ### File Manager
 
 Thunar (GTK): Configure with theme
-
-### VSCode
-
-~~VSCode~~
 
 ### Notification Daemon
 
@@ -42,13 +34,6 @@ Waybar (easy, temp solution?)
 - workspaces https://github.com/Alexays/Waybar/wiki/Module:-Hyprland
 - applets (NM, discord, pavucontrol)
 Quickshell (create your own widgets, pain, time consuming, could look so good)
-Ewww
-AGS
-
-### Discord
-
-Discord (telemetry, old Electron)
-Vesktop (auto install vencord, cool themes, popular)
 
 ### QT Apps Themeing
 
@@ -96,7 +81,6 @@ Make your own widget (specifically for interfacing with the network manager)
 ### Volume Control Panel
 
 pavucontrol
-pwvucontrol
 Make your own widget with quickshell?
 ...
 
@@ -117,6 +101,10 @@ Docker (Containers instead of VM)
 Bitwarden (ugly)
 
 Bitwarden CLI (needs nodejs-lts version, conflicts) (makes life hard)
+
+### npm package manager
+
+figure this thing out, it's kinda cancer
 
 ### Idle and Sleep
 
@@ -156,12 +144,24 @@ Find some good wallpapers
 va11halla live wallpaper?
 https://github.com/D3Ext/aesthetic-wallpapers/tree/main
 
+## Theming (transparency? blur?)
+
+vivaldi, discord, vscode
+
 
 
 
 ## Far Future
 
+go through hyrpland wiki completely again
+
 Check boot times and trouble shoot using `systemd-analyze blame`
+
+check out some cachyos optimizations in the wiki (eg, refind configuration)
+
+Use cachyos repos
+
+Use cachyos kernel with BORE scheduler
 
 Set up wallpaper switch script? Use Hyprpaper? idk, does it use rofi? reference Ari's dotfiles
 

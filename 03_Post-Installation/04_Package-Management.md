@@ -61,11 +61,13 @@ You can uncomment `#Color` to allow colors in pacman outputs.
 
 You can uncomment `#VerbosePkgLists` to see old and new versions of available packages.
 
-I've done the above to my pacman.
+You can change the number of concurrent running package installs/upgrades to 10.
+
+I've done the above to my pacman. My config file is also in my dotfiles.
 
 ## List of Installed Packages
 
-We can keep an automatically updating list of installated packages by using a pacman hook. Create the following file in `/etc/pacman.d/hooks/` called `pkglist.hook`:
+We can keep an automatically updating list of installated packages by using a pacman hook. Create the following file in `/etc/pacman.d/hooks/` called `pkglist.hook` (also in my dotfiles):
 
 ```
 [Trigger]

@@ -1,6 +1,8 @@
 # Visual Studio Code
 
-## Installing
+[Visual Studio Code](https://wiki.archlinux.org/title/Visual_Studio_Code)
+
+## Installation
 
 `paru -S visual-studio-code-bin`
 

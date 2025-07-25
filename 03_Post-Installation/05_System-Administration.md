@@ -1,6 +1,6 @@
 # System Administration
 
-[General Recommendataions](https://wiki.archlinux.org/title/General_recommendations#Graphical_user_interface)
+[General Recommendations](https://wiki.archlinux.org/title/General_recommendations#Graphical_user_interface)
 
 This is a collection of things you should do to further set up your system after installation. We'll finally be following section 1 of General Recommendataions.
 

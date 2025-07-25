@@ -41,4 +41,4 @@ We'll install more apps and start configuring things later.
 
 ## Brightness/Volume Change 
 
-Install `brightnessctl` to be able to use your keyboard brightness change macros. Install `playerctl` to be able to use volume control macros.
+Install `brightnessctl` to be able to use your keyboard brightness change macros. Install `playerctl` to be able to use volume control macros like pause and play.
